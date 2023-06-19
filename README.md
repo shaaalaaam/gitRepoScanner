@@ -60,10 +60,28 @@ Example API Response
 }
 ## Frontend
 ##
+
+# Complexity Analyzer - GitHub Repository Analyzer
+
+This project is a GitHub Repository Analyzer built using React. It allows users to enter a GitHub repository URL and analyze its technical complexity. The analyzer makes use of a backend API to fetch the repository information and calculate the complexity score.
+
+## Prerequisites
+
+- Node.js and npm installed on your machine.
+
+## Getting Started
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the dependencies by running the following command:
+
+   ```bash
+   npm install
+
 ## Contributing
-Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
+   Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or    submit a pull request.
 
 ## License
-This project is licensed under the MIT License.
-Feel free to use and customize this README.md file for your project!
+   This project is licensed under the MIT License.
+   Feel free to use and customize this README.md file for your project!
 
