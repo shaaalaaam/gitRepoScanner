@@ -28,22 +28,23 @@ This repository contains a Python Flask API that allows users to analyze the com
    git clone https://github.com/your-username/github-repo-complexity-analyzer.git
 
 2. Navigate to the project directory:
+   ```bash
+   cd github-repo-complexity-analyzer
 
-cd github-repo-complexity-analyzer
+3. Install the required Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   
+4. Start the Flask server:
+   ```bash
+   python app.py
+6. Ensure the Flask server is running on port 5001 (adjust the port if needed).
 
-3.Install the required Python dependencies:
+7. Integrate the API with your React project by sending a POST request to http://localhost:5001/api/analyze with the following JSON payload:
 
-pip install -r requirements.txt
-Start the Flask server:
-
-python app.py
-Ensure the Flask server is running on port 5001 (adjust the port if needed).
-
-Integrate the API with your React project by sending a POST request to http://localhost:5001/api/analyze with the following JSON payload:
-
-{
-  "url": "https://github.com/user/repository"
-}
+   {
+     "url": "https://github.com/user/repository"
+   }
 The API will respond with a JSON object containing the most complex repository and its complexity score.
 
 Example API Response
@@ -54,12 +55,11 @@ Example API Response
   },
   "complexityScore": 1000
 }
-#Contributing
+
+## Contributing
 Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-#License
+## License
 This project is licensed under the MIT License.
-
-
 Feel free to use and customize this README.md file for your project!
 
