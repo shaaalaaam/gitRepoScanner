@@ -78,6 +78,43 @@ This project is a GitHub Repository Analyzer built using React. It allows users 
    ```bash
    npm install
 
+* 4. Start the development server:
+* 
+*    ```bash
+*    npm start
+*    ```
+* 
+* 5. Open your web browser and visit http://localhost:3000 to access the Complexity Analyzer.
+* 
+* ## Usage
+* 
+* 1. Enter the GitHub repository URL in the input field. The URL should be in the format https://github.com/username/repository.
+* 2. Click the "Analyze" button to initiate the analysis.
+* 3. The application will communicate with the backend API to fetch the repository information and calculate the complexity score.
+* 4. Once the analysis is complete, the most complex repository and its complexity score will be displayed on the screen.
+* 
+* ## Technologies Used
+* 
+* - React: A JavaScript library for building user interfaces.
+* - Axios: A library for making HTTP requests.
+* - CSS: Cascading Style Sheets for styling the application.
+* 
+* ## Backend API
+* 
+* The frontend application communicates with a backend API to perform the analysis. Make sure the backend API is running and accessible at http://localhost:5000/api/analyze or update the API URL in the analyzeRepository function inside the App component.
+* 
+* ## Contributing
+* 
+* Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
+* 
+* ## License
+* 
+* This project is licensed under the MIT License. See the LICENSE file for details.
+* 
+* ## Acknowledgements
+* 
+* The GitHub Repository Analyzer is inspired by the concept of code complexity analysis. The project utilizes the power of React and various open-source libraries to provide a user-friendly interface for analyzing GitHub repositories.
+
 ## Contributing
    Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or    submit a pull request.
 
