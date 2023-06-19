@@ -1,5 +1,8 @@
-# gitRepoScanner
+# GitRepoScanner
 This repository will contain Backend and Frontend for the Git Repository Scanner.
+
+## Backend
+##
 
 # GitHub Repository Complexity Analyzer
 
@@ -55,7 +58,8 @@ Example API Response
   },
   "complexityScore": 1000
 }
-
+## Frontend
+##
 ## Contributing
 Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
